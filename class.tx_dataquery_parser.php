@@ -734,6 +734,7 @@ class tx_dataquery_parser {
 				}
 			}
 			foreach ($completeFilters as $table => $whereClause) {
+				$whereClause = '(' . $whereClause . ')';
 				if ($table == $this->queryObject->mainTable) {
 					$this->addWhereClause($whereClause);
 				} elseif (in_array($table, $this->queryObject->subtables)) {
