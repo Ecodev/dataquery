@@ -1,0 +1,8 @@
+{
+    "name": "ecodev/dataquery",
+    "version": "1.9.0",
+    "type": "typo3-cms-extension",
+    "description": "Assembles a query on data stored in the TYPO3 local database, automatically enforcing criteria like language, publication date, etc. More info on http://www.typo3-tesseract.com/",
+    "homepage": "https://github.com/ecodev/dataquery",
+    "license": "GPL-2.0+"
+}
